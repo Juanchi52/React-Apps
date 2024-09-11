@@ -1,0 +1,179 @@
+input{
+    color: orangered;
+    padding: 5px 9px;
+    outline: none;
+    font-size: 1.1em;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid orangered;
+    margin-left: 15px;
+    border-right: none;
+}
+nav {
+    background-color: black;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.062);
+}
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 30px;
+}
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 16px;
+}
+img{
+    width: 100%;
+    vertical-align: top;
+}
+.active{
+    color: orange;
+}
+.lista{
+    display: grid;
+    gap:5px;
+    grid-template-columns: repeat(auto-fit, minmax(390px,1fr));
+}
+.destino{
+    border: 1px solid gray;
+    padding: 8px 12px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.servicios{
+    text-align: center;
+    font-size: 20px;
+}
+.turismoLugar{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.nombre{
+    font-size: 2.5em;
+    text-align: center;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: bold;
+}
+.situacion{
+    margin: 5px 0 10px;
+    font-size: 1.2em;
+
+    display: -webkit-box;
+    max-width: 100%;
+    height: 24px;
+    line-height: 1;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.destino a, .aviso a {
+    background-color: green;
+    color: white;
+    text-align: center;
+    width: 80px;
+    height: 20px;
+    padding: 1px 3px 3px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 5px;
+}
+.imagenGrande{
+    width: 900px;
+    margin: auto;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.precio{
+    position: absolute;
+    color: white;
+    width: 90px;
+    font-size: 40px;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(12, 0, 0, 0.555); /* Color de fondo con transparencia */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.volver{
+    position: absolute;
+    top: 10px;
+    right: 15px ;
+    background-color: orange;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 3px 9px;
+    width: 55px;
+    cursor: pointer;
+}
+.circulo{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+    display: inline-block;
+    margin-top: 5px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+
+.boton{
+    font-size: 0.9em;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 3px 9px;
+    cursor: pointer;
+}
+.contratar{
+    background-color: green;
+}
+.anular{
+    background-color: red;
+}
+.contratar, .anular {
+    position: absolute;
+    top: 10px;
+    right: 80px;
+}
+.anularRuta{
+    margin: 0 15px 3px;
+}
+.login{
+    padding-top: 20px;
+    width: 520px;
+    height: 180px;
+    border-radius: 12px;
+    border: 6px solid orangered;
+    position: absolute;
+    text-align: center;
+    inset: 0;
+    margin: auto;
+    color: orangered;
+}
+.botonRegistro{
+    background-color: orangered;
+    color: white;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    border: 1px solid orangered;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+h3{
+  line-height: 50px;
+}
+body{
+  margin: 20px;
+}
+
+.reyes {
+  list-style: none;
+  margin: 0;
+  padding: 12px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+ 
+  width: 100%;
+  gap: 32px;
+
+}
+.nombreRey{
+  color: red;
+}
+
+.rey{
+  border-radius: 12px;
+  border: 1px solid black;
+  color: black;
+  width: 100%;
+}
+
+.contador{
+  user-select: none;
+  font-size: 2em;
+}
+
+img{
+  width: 100%;
+  margin-top: 20px;
+}
